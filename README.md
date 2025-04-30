@@ -1,7 +1,7 @@
 # Blackjack-Action-Recommendation-AI-Model
 
 ### 개요
-학과 수업 중 진행한 프로젝트로 블랙잭 게임 중 나의 카드 두 장의 합, 딜러 카드 한 장, A를 11로 썼는지 여부로 본인이 해야 할 행동을 추천해주는 모델(ex | stay, hit , surrender) 구현
+블랙잭 게임 중, 나의 카드 두 장의 합, 딜러 카드 한 장, A를 11로 썼는지 여부로 본인이 해야 할 행동을 추천해주는 모델(ex | stay, hit , surrender) 구현
 
 ### 동작 방식
 **Q-learning**과 **Epsilon-Greedy** 정책을 이용하여 블랙잭 게임의 최적 전략을 학습하며, 시간이 지남에 따라 탐험을 줄이고 더 많이 활용하여 최적의 전략을 찾아감
