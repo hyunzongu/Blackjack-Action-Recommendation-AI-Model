@@ -31,10 +31,15 @@
 ---
 
 ## 🧩 전체 구조
+
 📂 project/
+
 ├── train_model.py # Q-learning 학습 수행 및 Q값 저장
+
 ├── q_agent.py # 학습된 Q값 로드 및 행동 추천 함수
+
 ├── main.py # 실행 진입점 (추천 실행)
+
 └── trained_Q.pkl # 학습된 Q값 저장 파일
 
 ---
