@@ -49,8 +49,6 @@ python train_model.py
 학습 완료 후 결과가 trained_Q.pkl로 저장됩니다.
 
 2️⃣ 학습된 모델 실행
-bash
-코드 복사
 python main.py
 학습 결과(trained_Q.pkl)를 불러와 바로 동작합니다.
 
@@ -58,16 +56,13 @@ python main.py
 
 예시:
 
-python
-코드 복사
 current_state = (14, 2, 0)
 # (내 카드 합, 딜러 카드, A를 11로 사용했는가)
 출력:
 
-less
-코드 복사
 제안된 행동: stay
 최대 Q 값: 0.45
+
 3️⃣ 재학습이 필요한 경우
 다음과 같이 환경이나 파라미터를 변경한 경우에만 train_model.py를 다시 실행합니다.
 
@@ -97,8 +92,7 @@ Epsilon 감소 스케줄을 통해 초기에는 다양한 탐험을 수행하고
 실행(main.py)
 
 🏁 예시 시각화 (간략 개념도)
-css
-코드 복사
+
 ┌──────────────┐
 │ Environment  │ ← Gym(Blackjack-v1)
 └──────┬───────┘
